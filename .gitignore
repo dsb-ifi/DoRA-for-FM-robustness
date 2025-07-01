@@ -1,0 +1,11 @@
+# Directories
+weights/*
+__pycache__/*
+*/data/*
+dist/*
+logs_dmz_2/*
+
+#
+*.pth
+*.pkl
+*__pycache__*

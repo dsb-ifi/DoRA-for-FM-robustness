@@ -1,0 +1,17 @@
+_target_: rl_benchmarks.models.ABMIL
+d_model_attention: 128
+temperature: 1.0
+mlp_hidden: [128, 64]
+mlp_initial_dropout: 0.1
+mlp_dropout: [0.25, 0.25]
+mlp_activation:
+  _target_: torch.nn.ReLU
+bias: True
+
+
+# We use the two-layer gated variant of the ABMIL architecture 
+# with all input embeddings mapped to an embedding dimension of 512 in the first fully connected layer, 
+# followed by hidden dimensions of 384 in the following intermediate layers. 
+# For regularization, we use dropout with P = 0.10 applied to the input embeddings and P = 0.25 after each intermediate layer in the network. 
+# Aside from the first fully connected layer, which is dependent on the embedding dimension of the pre-extracted features, all comparisons used the same ABMIL model configuration. 
+# We trained all ABMIL models using the AdamW optimizer129 with a cosine learning rate scheduler, a learning rate of 1 × 10−4, cross-entropy loss, and a maximum of 20 epochs.

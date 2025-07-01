@@ -1,0 +1,28 @@
+defaults:
+  - _self_
+  - slide_dataset: s36_lusc  #s36_lusc #unn_lusc #tcga_lusc
+  - feature_extractor: phikon_tuned #iBOTViTBasePANCAN #, uni, virchow
+  # virchow2 gray only gets 1000 tiles
+
+
+# lora_dinov2/heavyaug/dino2_p_tcga_ha
+pretrained_dir: /home/vilde/code/Phikon/HistoSSLscaling/lora_dinov1/heavyaug/dino_p_s36_ha/eval_checkpoint_0099 #lora_dinov2/dinov2_p_tcgaunn2/eval_checkpoint_0099 #dinov2_p_tcgaunn/eval_checkpoint_0040 #lora_models/dino_tcga_10tile_100_midLR/peft_checkpoints_0020 #dinov2_tcga_phikon/eval_checkpoint_0099 #lora_models/dino_tcga_10tile_100_v2/peft_checkpoints_0040  #dino_tcga_10tile_100_wOrg/peft_checkpoints #dino_10tile_100 #dino_tcga_10tile_100 
+features_output_dir: /home/vilde/data/slides_classification/features_2
+
+# Tiling parameters
+augmentation: False
+tile_size: auto
+n_tiles: 1000
+random_sampling: True
+seed: 0
+batch_size: 8
+num_workers: 8
+
+# A note on the device(s) used for inference:
+# device: Union[None, int, List[int]] = None
+#     GPUs to use.
+#     If None, will use all available GPUs.
+#     If -1, extraction will run on CPU
+#     If K, extraction will run on GPU K
+
+device: 1
