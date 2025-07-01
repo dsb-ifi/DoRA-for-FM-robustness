@@ -3,7 +3,7 @@ GitHub repo for the paper "Low-Rank Adaptations for increased Generalization in 
 
 ## How to use this code
 #### Running experiments
-Use tools/slide_level_tasks/crossvalidation_external.py to run experiments with distinct train/test datasets. 
+Use tools/slide_level_tasks/crossvalidation_external.py to run experiments with distinct train/test datasets.   
 Then change parameters in conf/slide_level_task/cross_validation/config_extreme.yaml and conf/slide_level_task/cross_validation/task/os_prediction_extreme.yaml for different models/datasets/hyperparameters.
 
 Use tools/slide_level_tasks/cross_validation.py for internal validation experiments.
