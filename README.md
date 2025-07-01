@@ -13,9 +13,8 @@ Original source: [GitHub Repository](https://github.com/owkin/HistoSSLscaling)
 License: [Owkin Non-Commercial License](https://github.com/owkin/HistoSSLscaling/tree/main?tab=License-1-ov-file)
 
 This material is licensed for **Non-Commercial use only**. You may reproduce and share it, or share any derivative work, under the same Non-Commercial terms and with attribution to the original authors.  
-For any **commercial use**, please contact the authors or Owkin directly.
 
-If you reuse or adapt this material, please also cite the original paper:  
+If you reuse or adapt this material, please also cite the Phikon paper:  
 ```bibtex
 @article{Filiot2023ScalingSSLforHistoWithMIM,
   author       = {Alexandre Filiot and Ridouane Ghermi and Antoine Olivier and Paul Jacob and Lucas Fidon and Alice Mac Kain and Charlie Saillard and Jean-Baptiste Schiratti},
