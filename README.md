@@ -1,8 +1,19 @@
 # DoRA for FM robustness
 GitHub repo for the paper "Low-Rank Adaptations for increased Generalization in Foundation Model features"
 
----
-**Attribution & License**
+## How to use this code
+**Running experiments**
+Use tools/slide_level_tasks/crossvalidation_external.py to run experiments with distinct train/test datasets. 
+Then change parameters in conf/slide_level_task/cross_validation/config_extreme.yaml and conf/slide_level_task/cross_validation/task/os_prediction_extreme.yaml for different models/datasets/hyperparameters.
+
+Use tools/slide_level_tasks/cross_validation.py for internal validation experiments.
+
+## Acknowledgements
+A large part of this codebase is derived from [Owkin/HistoSSLscaling (Phikon)](https://github.com/owkin/HistoSSLscaling).
+Dino tuning is derived from [facebookresearch/dino](https://github.com/facebookresearch/dino)
+
+
+## Attribution & License
 
 This page includes material from the project:
 
