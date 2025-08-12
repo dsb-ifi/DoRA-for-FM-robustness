@@ -45,6 +45,9 @@ abstract: |
 
 # Robustness of Foundation Models
 
+![Figure 1](survival.png)
+*Figure 1: Evaluating Phikon (top) and Virchow2 (bottom) performance on internal and external datasets. The performance drops when the models are evaluated on external data, suggesting robustness issues. The “Not Test set” refers to training on the union of the two datasets not used as “test set.”
+
 
 
 # DoRA for improved generalization
@@ -58,9 +61,9 @@ Add a ashort conclusion here
 ## Citation
 {% raw %}
 ```
-@inproceedings{Boee2025,
+@inproceedings{SchulerudBoee2025,
   title={Low-Rank Adaptations for increased Generalization in Foundation Model features},
-  author={B\o{}e, Vilde Schulerud and Kleppe, Andreas and Foersch, Sebastian and Wagner, Daniel-Christoph and Busund, Lill-Tove Rasmussen and Ram\'irez Rivera, Ad\'in},
+  author={Schulerud B\o{}e, Vilde Schulerud and Kleppe, Andreas and Foersch, Sebastian and Wagner, Daniel-Christoph and Busund, Lill-Tove Rasmussen and Ram\'irez Rivera, Ad\'in},
   year={2025}
 }
 ```
