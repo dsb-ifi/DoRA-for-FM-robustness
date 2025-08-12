@@ -27,11 +27,10 @@ affiliations:
     - name: Department of Clinical Pathology, University Hospital of North Norway, Tromsø, Norway
 paper: https://openreview.net/pdf?id=0BJTRUVDf4
 #<!--video: https://www.youtube.com/@UniOslo-->
-code: https://github.com/dsb-ifi/DoRA-for-FM-robustness
-#<!-- data: https://huggingface.co/docs/ -->
+code: https://github.com/dsb-ifi/SPiT
+# data: https://huggingface.co/docs/
 
-abstract: For foundation models (FMs) to truly advance computational pathology, they must deliver consistent and reliable predictions under diverse, unseen test conditions. Without such robustness, clinical trust and widespread adoption remain out of reach. 
-Although many FMs for histopathology now exist, they have to our knowledge not been systematically tested for robustness by external researchers on independent datasets. In this study, we evaluate the robustness of foundation model features on three separate histopathology datasets and find that their performance drops on external data. Our analysis also reveals that these models often encode dataset-specific information, limiting their generalizability. To address this issue, we train a Weight-Decomposed Low-Rank Adaptation (DoRA) with strong data augmentations to improve feature robustness. Our experiments show that models trained with this adapter exhibit fewer signs of dataset-specific information and may generate more robust features across domains. These results highlight the need for robustness testing and encourage incorporating robustness considerations into the development, training, and tuning of FMs for histopathology.
+abstract: Vision Transformer (ViT) architectures traditionally employ a grid-based approach to tokenization independent of the semantic content of an image. We propose a modular superpixel tokenization strategy which decouples tokenization and feature extraction; a shift from contemporary approaches where these are treated as an undifferentiated whole. Using on-line content-aware tokenization and scale- and shape-invariant positional embeddings, we perform experiments and ablations that contrast our approach with patch-based tokenization and randomized partitions as baselines.  We show that our method significantly improves the faithfulness of attributions, gives pixel-level granularity on zero-shot unsupervised dense prediction tasks, while maintaining predictive performance in classification tasks. Our approach provides a modular tokenization framework commensurable with standard architectures, extending the space of ViTs to a larger class of semantically-rich models.
 
 ---
 
