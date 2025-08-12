@@ -2,26 +2,29 @@
 layout: project_page
 permalink: /
 
-title: "A Spitting Image: Modular Superpixel Tokenization in Vision Transformers"
-authors: 
-  - name: Marius Aasan
-    link: https://www.mn.uio.no/ifi/english/people/aca/mariuaas/
+title: Low-Rank Adaptations for increased Generalization in Foundation Model features
+authors:
+  - name: Vilde Schulerud Bøe
     affiliation: 1, 3
-  - name: Odd Kolbjørnsen
-    link: https://www.mn.uio.no/math/english/people/aca/oddkol/
-    affiliation: 2, 3
-  - name: Anne Schistad Solberg
-    link: https://www.mn.uio.no/ifi/english/people/aca/anne/
+  - name: Andreas Kleppe
+    affiliation: 1, 2, 3
+  - name: Sebastian Foersch
+    affiliation: 4
+  - name: Daniel-Christoph Wagner
+    affiliation: 4
+  - name: Lill-Tove Rasmussen Busund
+    affiliation: 5, 6
+  - name: Adín Ramírez Rivera
     affiliation: 1, 3
-  - name: Adín Ramirez Rivera
-    link: https://www.mn.uio.no/ifi/english/people/aca/adinr/
-    affiliation: 1, 3
-affiliations: 
-  - name: University of Oslo
-    link: https://www.mn.uio.no/ifi/forskning/grupper/dsb/
-  - name: Aker BP
-  - name: SFI Visual Intelligence  
-    link: https://www.visual-intelligence.no/
+affiliations:
+    - name: DSB group, Department of Informatics, University of Oslo, Norway
+      link: https://www.mn.uio.no/ifi/forskning/grupper/dsb/
+    - name: Institute for Cancer Genetics and Informatics, Oslo University Hospital, Norway
+    - name: SFI Visual Intelligence
+      link: https://www.visual-intelligence.no/
+    - name: Institute of Pathology, University Medical Center, Mainz, Germany
+    - name: Department of Medical Biology, UiT The Arctic University of Norway, Tromsø, Norway
+    - name: Department of Clinical Pathology, University Hospital of North Norway, Tromsø, Norway
 paper: https://arxiv.org/abs/2408.07680
 # video: https://www.youtube.com/@UniOslo
 code: https://github.com/dsb-ifi/SPiT
