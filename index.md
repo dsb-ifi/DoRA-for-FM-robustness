@@ -25,12 +25,13 @@ affiliations:
     - name: Institute of Pathology, University Medical Center, Mainz, Germany
     - name: Department of Medical Biology, UiT The Arctic University of Norway, Tromsø, Norway
     - name: Department of Clinical Pathology, University Hospital of North Norway, Tromsø, Norway
-paper: https://arxiv.org
+paper: https://openreview.net/pdf?id=0BJTRUVDf4
 <!--video: https://www.youtube.com/@UniOslo-->
 code: https://github.com/dsb-ifi/DoRA-for-FM-robustness
 <!-- data: https://huggingface.co/docs/ -->
 
-abstract: The "computable" numbers may be described briefly as the real numbers whose expressions as a decimal are calculable by finite means. Although the subject of this paper is ostensibly the computable numbers. it is almost equally easy to define and investigate computable functions of an integral variable or a real or computable variable, computable predicates, and so forth. The fundamental problems involved are, however, the same in each case, and I have chosen the computable numbers for explicit treatment as involving the least cumbrous technique. I hope shortly to give an account of the relations of the computable numbers, functions, and so forth to one another. This will include a development of the theory of functions of a real variable expressed in terms of computable numbers. According to my definition, a number is computable if its decimal can be written down by a machine... 
+abstract: For foundation models (FMs) to truly advance computational pathology, they must deliver consistent and reliable predictions under diverse, unseen test conditions. Without such robustness, clinical trust and widespread adoption remain out of reach. 
+Although many FMs for histopathology now exist, they have to our knowledge not been systematically tested for robustness by external researchers on independent datasets. In this study, we evaluate the robustness of foundation model features on three separate histopathology datasets and find that their performance drops on external data. Our analysis also reveals that these models often encode dataset-specific information, limiting their generalizability. To address this issue, we train a Weight-Decomposed Low-Rank Adaptation (DoRA) with strong data augmentations to improve feature robustness. Our experiments show that models trained with this adapter exhibit fewer signs of dataset-specific information and may generate more robust features across domains. These results highlight the need for robustness testing and encourage incorporating robustness considerations into the development, training, and tuning of FMs for histopathology.
 
 carousels:
   - images: 
