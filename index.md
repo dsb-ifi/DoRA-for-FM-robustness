@@ -43,7 +43,11 @@ abstract: |
 
 ---
 
+# Motivation
+Foundation Models (FMs) have emerged as a popular and promising approach within computational pathology. These models are trained on vast, diverse datasets, and are often expected be more robust and less susceptible to domain shifts than other models. However, recent studies suggest that FMs in histopathology may not generalize to out-of-distribution condition. In this study, we test the robustness of two popular foundation models: Phikon and Virchow 2. We also suggest to use low-rank adaptations to tune the FMs, to increase the generalizability of the FM features.
+
 # Robustness of Foundation Models
+To evaluate the robustness of the original FM features, we train an ABMIL model to predict overall survival based on the tile features. We compare the performance of models in internal (ABMIL head trained and tested on the same dataset) versus external (trained on different datasets than tested on) evaluation settings. This is shown in Figure 1, where we observe a drop in performance for external evaluation settings. Since robust features should generalize well across input domains, this observed drop confirms that both Phikon and Virchow2 struggle with domain robustness in survival prediction.
 
 ![Figure 1](survival.png)
 Figure 1: Evaluating Phikon (top) and Virchow2 (bottom) performance on internal and external datasets. The performance drops when the models are evaluated on external data, suggesting robustness issues. The “Not Test set” refers to training on the union of the two datasets not used as “test set.”
