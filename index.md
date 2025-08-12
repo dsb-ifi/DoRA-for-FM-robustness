@@ -25,7 +25,7 @@ affiliations:
     - name: Institute of Pathology, University Medical Center, Mainz, Germany
     - name: Department of Medical Biology, UiT The Arctic University of Norway, Tromsø, Norway
     - name: Department of Clinical Pathology, University Hospital of North Norway, Tromsø, Norway
-paper: https://openreview.net/pdf?id=0BJTRUVDf4
+paper: https://arxiv.org/abs/2408.07680
 #<!--video: https://www.youtube.com/@UniOslo-->
 code: https://github.com/dsb-ifi/SPiT
 # data: https://huggingface.co/docs/
