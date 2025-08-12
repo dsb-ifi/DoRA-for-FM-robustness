@@ -46,20 +46,24 @@ abstract: |
 # Robustness of Foundation Models
 
 ![Figure 1](survival.png)
-*Figure 1: Evaluating Phikon (top) and Virchow2 (bottom) performance on internal and external datasets. The performance drops when the models are evaluated on external data, suggesting robustness issues. The “Not Test set” refers to training on the union of the two datasets not used as “test set.”
+Figure 1: Evaluating Phikon (top) and Virchow2 (bottom) performance on internal and external datasets. The performance drops when the models are evaluated on external data, suggesting robustness issues. The “Not Test set” refers to training on the union of the two datasets not used as “test set.”
 
-
+![Figure 2](tsne.png)
+Figure 2: t-SNE plots for Phikon and Virchow2 original features (top) and DoRA adapted features tuned on UNN (bottom). The plots show a more clear clustering for the original features, suggesting these features are more dataset dependent. This is an undesired quality for domain generalization.
 
 # DoRA for improved generalization
 
 ## DoRA
+
+## Results
+![Figure 3](tiles.png)
+Figure 3: WSI tiles that are close to the a cluster center (left), have a medium distance to the center (middle), and are far from the cluster center (right) for Phikon and Virchow2 with and without DoRA-tuning.
 
 ## Conclusion
 
 Add a ashort conclusion here
 
 ## Citation
-{% raw %}
 ```
 @inproceedings{SchulerudBoee2025,
   title={Low-Rank Adaptations for increased Generalization in Foundation Model features},
@@ -67,4 +71,3 @@ Add a ashort conclusion here
   year={2025}
 }
 ```
-{% endraw %}
