@@ -43,14 +43,6 @@ abstract: |
 
 ---
 
-![Figure 1](fig1.png)
-*Figure 1: Tokenized image and attributions from standard Vision Transformer (ViT), a transformer trained with random Voronoi tesselations as tokens (RViT), and our proposed superpixel tokens (SPiT). We use attribution methods inherent in the transformer architecture (Att.Flow), PCA with prototypes (Proto. PCA), and local interpretable model-agnostic explanations LIME using independently computed superpixels using simple linear iterative clustering (SLIC).*
-
-
-The Vision Transformer (ViT) has largely superseded convolutional neural networks (CNN) for state-of-the-art performance in vision tasks. The ViT applies a novel way of processing images; instead of applying a deep sequence of learnable local convolutional filters, the strategy is instead to partition the image into *square patches* to be treated as *discrete tokens*. These are processed in parallel through *global attention operators*, for which the model learns to share information between tokens optimally for a specific downstream task, e.g. classification. Hence, the ViT represents a move from a focus on local processing to a focus on global processing of spatial data.
-
-Since its introduction, the ViT model has been leveraged successfully for a variety of downstream tasks, including classification, object detection, segmentation, and has been shown to be particularly well suited to self-supervised learning. Importantly, since the transformer architecture is used in language tasks, this allows for multimodality in language and vision.
-
 # Robustness of Foundation Models
 
 
