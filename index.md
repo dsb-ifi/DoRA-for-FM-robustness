@@ -2,24 +2,20 @@
 layout: project_page
 permalink: /
 
-# You can declare accent colors here
-# accent: '#D21111'
-# accent: darkorange
-
 title: Low-Rank Adaptations for increased Generalization in Foundation Model features
 authors:
-    - name: Vilde Schulerud Bøe
-      affiliation: 1,3
-    - name: Andreas Kleppe
-      affiliation: 1,2,3
-    - name: Sebastian Foersch
-      affiliation: 4
-    - name: Daniel-Christoph Wagner
-      affiliation: 4
-    - name: Lill-Tove Rasmussen Busund
-      affiliation: 5,6
-    - name: Adín Ramírez Rivera
-    affiliation: 1,3
+  - name: Vilde Schulerud Bøe
+    affiliation: 1, 3
+  - name: Andreas Kleppe
+    affiliation: 1, 2, 3
+  - name: Sebastian Foersch
+    affiliation: 4
+  - name: Daniel-Christoph Wagner
+    affiliation: 4
+  - name: Lill-Tove Rasmussen Busund
+    affiliation: 5, 6
+  - name: Adín Ramírez Rivera
+    affiliation: 1, 3
 affiliations:
     - name: DSB group, Department of Informatics, University of Oslo, Norway
       link: https://www.mn.uio.no/ifi/forskning/grupper/dsb/
@@ -32,7 +28,7 @@ affiliations:
 paper: https://arxiv.org
 <!--video: https://www.youtube.com/@UniOslo-->
 code: https://github.com/dsb-ifi/DoRA-for-FM-robustness
-# data: https://huggingface.co/docs/
+<!-- data: https://huggingface.co/docs/ -->
 
 abstract: The "computable" numbers may be described briefly as the real numbers whose expressions as a decimal are calculable by finite means. Although the subject of this paper is ostensibly the computable numbers. it is almost equally easy to define and investigate computable functions of an integral variable or a real or computable variable, computable predicates, and so forth. The fundamental problems involved are, however, the same in each case, and I have chosen the computable numbers for explicit treatment as involving the least cumbrous technique. I hope shortly to give an account of the relations of the computable numbers, functions, and so forth to one another. This will include a development of the theory of functions of a real variable expressed in terms of computable numbers. According to my definition, a number is computable if its decimal can be written down by a machine... 
 
