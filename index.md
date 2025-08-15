@@ -75,7 +75,7 @@ We find that current FMs for histopathology have issues with robustness. Our res
 ```
 @inproceedings{SchulerudBoee2025,
   title={Low-Rank Adaptations for increased Generalization in Foundation Model features},
-  author={Schulerud B\o{}e, Vilde Schulerud and Kleppe, Andreas and Foersch, Sebastian and Wagner, Daniel-Christoph and Busund, Lill-Tove Rasmussen and Ram\'irez Rivera, Ad\'in},
+  author={Schulerud B\o{}e, Vilde and Kleppe, Andreas and Foersch, Sebastian and Wagner, Daniel-Christoph and Busund, Lill-Tove Rasmussen and Ram\'irez Rivera, Ad\'in},
   year={2025}
 }
 ```
